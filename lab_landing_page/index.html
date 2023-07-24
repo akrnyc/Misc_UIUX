@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TITLE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body, html {
+                height: 100%;
+                text-align: center;
+                }
+            
+            /* Turn off parallax scrolling for tablets and phones */
+            @media only screen and (max-device-width: 1024px) {
+                .IMG1, .IMG2, .IMG3, .IMG4, .IMG5 {
+                    background-attachment: scroll;
+                }
+            }
+
+            .IMG1, .IMG2, .IMG3, .IMG4, .IMG5 {
+                filter: blur(8px);
+                -webkit-filter: blur(8px);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+            }
+
+            .CenterMotif span.motif{
+                
+            }
+
+            .IMGheader{
+                text-align: center;
+            }
+
+            .personoverlay{
+
+            }
+
+            .personcaption{
+
+            }
+
+            .textarea1 {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                text-align: center;
+                color: #000000;
+            }
+
+            .textarea2 {
+                position: relative;
+                text-align: justify;
+            }
+
+            .row {
+                display: flex;
+            }
+
+            .column {
+                flex: 33.33%;
+                padding: 5px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        /* Welcome+Focus */
+        <div class="IMG1" style="background-image: url('IMG1.png');  min-height: 100%;">
+            <div class="CenterMotif">
+                <span class="motif">CenterMotif</span>
+            </div>
+        </div>
+          
+        <div class="textarea1">
+            <p>textarea</p>
+        </div>
+
+        /* News+Events */
+        <div class="IMG2" style= "background-image: url('IMG2.png');  min-height: 50%;">
+            <div class="IMGheader">
+                News and Events
+            </div>
+        </div>
+          
+        <div class="textarea2">
+            <p>textarea</p>
+        </div>
+
+        /* People */
+        <div class="IMG3" style="background-image: url('IMG3.png');  min-height: 50%;">
+            <div class="IMGheader">
+                People
+            </div>
+        </div>
+          
+        <div class="textarea2">
+            <div class="row">
+                <div class="column">
+                    <img src="person1.jpg" alt="person1">
+                    <div class="personoverlay">
+                        <div class="personcaption">CAPTION</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="person2.jpg" alt="person2">
+                    <div class="personoverlay">
+                        <div class="personcaption">CAPTION</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="person3.jpg" alt="person3">
+                    <div class="personoverlay">
+                        <div class="personcaption">CAPTION</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="person4.jpg" alt="person4">
+                    <div class="personoverlay">
+                        <div class="personcaption">CAPTION</div>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                    <img src="person5.jpg" alt="person5">
+                    <div class="personoverlay">
+                        <div class="personcaption">CAPTION</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="person6.jpg" alt="person6">
+                    <div class="personoverlay">
+                        <div class="personcaption">CAPTION</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="person7.jpg" alt="person7">
+                    <div class="personoverlay">
+                        <div class="personcaption">CAPTION</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="person8.jpg" alt="person8">
+                    <div class="personoverlay">
+                        <div class="personcaption">CAPTION</div>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        /* Publications */
+        <div class="IMG4" style="background-image: url('IMG4.png');  min-height: 50%;">
+            <div class="IMGheader">
+                Publications
+            </div>
+        </div>
+          
+        <div class="textarea2">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>See more at </p>
+        </div>
+
+        /* Contact+Opportunities */
+        <div class="IMG5"  style="background-image: url('IMG5.png');  min-height: 50%;">
+            <div class="IMGheader">
+                Contact and Opportunities
+            </div>
+        </div>
+          
+        <div class="textarea2">
+            <p>textarea</p>
+        </div>
+          
+    </body>
+</html>

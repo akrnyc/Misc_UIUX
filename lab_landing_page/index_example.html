@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ramnadime lab</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0px;
+                font-family: sans-serif;
+                }
+            
+            @media only screen and (max-device-width: 1024px) {
+                .IMG1, .IMG2, .IMG3, .IMG4, .IMG5 {
+                    background-attachment: scroll;
+                }
+            }
+
+            @media screen and (max-width: 500px) {
+                .column {
+                    width: 100%;
+                }
+            }
+
+            .IMG1, .IMG2, .IMG3, .IMG4, .IMG5 {
+                position: relative;
+                opacity: 0.65;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .CenterMotif {
+                left: 0;
+                padding-top: 25%;
+                width: 100%;
+                text-align: center;
+                color: #ffffff;
+                font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+                font-weight: bold;
+                font-size: 65px;
+                letter-spacing: 20px;
+            }
+
+            .IMGheader{
+                left: 0;
+                padding-top: 10%;
+                width: 100%;
+                text-align: center;
+                color: #ffffff;
+                font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+                font-weight: bold;
+                font-size: 35px;
+                letter-spacing: 15px;
+            }
+
+            .personoverlay{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #244469;
+            }
+
+            .personcaption{
+                color: white;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            .personcontainer {
+                position: relative;
+            }
+
+            .personcontainer:hover .personoverlay {
+                opacity: 0.9;
+            }
+
+            .textarea1 {
+                position: center;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                text-align: center;
+                color: #000000;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .textarea2 {
+                position: relative;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .row {
+                display: flex;
+            }
+
+            .column {
+                flex: 25%;
+                padding: 5px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="IMG1" style="background-image: url('https://www.publicjobs.ie/images/news_and_events/Science-week-article.jpg');  min-height: 100%;">
+            <div class="CenterMotif">
+                ramnadime lab
+            </div>
+        </div>
+          
+        <div class="textarea1">
+            <p>textarea</p>
+        </div>
+
+        <div class="IMG2" style= "background-image: url('https://3spxpi1radr22mzge33bla91-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/iStock-1017193718-1024x683.jpg');  min-height: 50%;">
+            <div class="IMGheader">
+                News and Events
+            </div>
+        </div>
+          
+        <div class="textarea2">
+            <p>textarea</p>
+        </div>
+
+        <div class="IMG3" style="background-image: url('https://www.sciencemag.org/sites/default/files/PE3%20200x300_1_0.jpg');  min-height: 50%;">
+            <div class="IMGheader">
+                People
+            </div>
+        </div>
+          
+        <div class="textarea2">
+            <div class="row">
+                <div class="column">
+                    <div class="personcontainer">
+                        <img src="https://static.thenounproject.com/png/259885-200.png" alt="person1" style="width:50%">
+                        <div class="personoverlay">
+                            <div class="personcaption">
+                                <h3>Alex Ramnarine</h3>
+                                <h4>Principal Investigator</h4>
+                                <p>MD/PhD, Harvard Medical School 2024</p>
+                                <p>BS Biochemistry, Boston College 2017</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="personcontainer">
+                        <img src="https://static.thenounproject.com/png/259885-200.png" alt="person2" style="width:50%">
+                        <div class="personoverlay">
+                            <div class="personcaption">Associate Professor</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="personcontainer">
+                        <img src="https://static.thenounproject.com/png/259885-200.png" alt="person3" style="width:50%">
+                        <div class="personoverlay">
+                            <div class="personcaption">Assistant Professor</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="personcontainer">
+                        <img src="https://static.thenounproject.com/png/259885-200.png" alt="person4" style="width:50%">
+                        <div class="personoverlay">
+                            <div class="personcaption">Instructor</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                    <div class="personcontainer">
+                        <img src="https://static.thenounproject.com/png/259885-200.png" alt="person5" style="width:50%">
+                        <div class="personoverlay">
+                            <div class="personcaption">Post-Doctoral Scholar</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="personcontainer">
+                        <img src="https://static.thenounproject.com/png/259885-200.png" alt="person6" style="width:50%">
+                        <div class="personoverlay">
+                            <div class="personcaption">PhD Candidate</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="personcontainer">
+                        <img src="https://static.thenounproject.com/png/259885-200.png" alt="person7" style="width:50%">
+                        <div class="personoverlay">
+                            <div class="personcaption">Technician</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="personcontainer">
+                        <img src="https://static.thenounproject.com/png/259885-200.png" alt="person8" style="width:50%">
+                        <div class="personoverlay">
+                            <div class="personcaption">Lab Manager</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="IMG4" style="background-image: url('https://www.salugenesis.com/wp-content/uploads/2019/02/cells-picture.jpg');  min-height: 50%;">
+            <div class="IMGheader">
+                Publications
+            </div>
+        </div>
+          
+        <div class="textarea2">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>See more at </p>
+        </div>
+
+        <div class="IMG5" style="background-image: url('https://uswfoxtail.blob.core.windows.net/foxtail-prod-uploads/images/Thinks.8dd35e85.fill-1366x700.format-jpeg.jpegquality-80.jpg');  min-height: 50%;">
+            <div class="IMGheader">
+                Contact and Opportunities
+            </div>
+        </div>
+          
+        <div class="textarea2">
+            <p>textarea</p>
+        </div>
+          
+    </body>
+</html>
